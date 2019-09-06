@@ -1,4 +1,4 @@
-"""Example to understand factory method design pattern."""
+"""Example to understand factory method design pattern. It is a creational pattern."""
 
 """
 Problem: Create character randomly based on game level(easy/hard).
