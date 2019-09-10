@@ -4,7 +4,7 @@
 Problem: Create character randomly based on game level(easy/hard).
 
 Why to use it:
-1) To encapsulate the creation of object at one place, so that it can be used be reused.
+1) To encapsulate the creation of object at one place, so that it can be reused.
 2) To make use of polymorphism, so that we can change the logic of object creation without
 much changing the client code. 
 """
