@@ -16,7 +16,7 @@ from abc import ABCMeta
 
 # Lets define the first and second part of the definition.
 # Here we define list of attack/defend algorithm.
-class AttackStrategy(ABCMeta):
+class AttackStrategy(metaclass=ABCMeta):
     def attack(self):
         pass
 
@@ -33,7 +33,7 @@ class StunnerAttack(AttackStrategy):
         print("STUNNER")
 
 
-class DefendStrategy(ABCMeta):
+class DefendStrategy(metaclass=ABCMeta):
     def defend(self):
         pass
 
@@ -53,7 +53,7 @@ class AdvanceDefend(DefendStrategy):
 # and defend in `HeroOne` class.
 # Algorithm like (attack/defend) can now vary independently irrespective of any client(HeroOne)
 # change.
-class Person(ABCMeta):
+class Person(metaclass=ABCMeta):
     def attack(self):
         pass
 
